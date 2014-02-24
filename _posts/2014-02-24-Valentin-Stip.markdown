@@ -2,13 +2,15 @@
 layout: episode
 title: "Valentin Stip"
 subtitle: SUN MORNING, 23 FEB 2014 - EPISODE 129
-date: 2014-02-24 11:47:56
-categories: jekyll update
+date: 2014-02-23 09:30:00
 author: "ImaCrea"
+published: true
 
 guest_name: Valentin Stip
 guest_pic: /img/guestPics/129_Valentin_Stip.jpg
 guest_color: dreamy
+bigTitle_font_ratio: 6
+bigTitle_line_ratio: 1
 
 episode_number: 129
 episode_URL: http://mailta.pe/129-Valentin-Stip.html

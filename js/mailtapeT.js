@@ -14,15 +14,6 @@ $(document).ready(
 	 lineRatio : 0.7 // A modifier au cas par cas ! -- Règle la hauteur de ligne du titre
 	});
 
-	$('#bigTitle').flowtype({
-	 minimum   : 100,
-	 maximum   : 1110,
-	 minFont   : 12,
-	 maxFont   : 250,
-	 fontRatio : 6, // A modifier au cas par cas ! -- Règle la largeur du titre
-	 lineRatio : 1 // A modifier au cas par cas ! -- Règle la hauteur de ligne du titre
-	});
-
 	 $('body').flowtype({
 	 minimum   : 500,
 	 maximum   : 1110,
