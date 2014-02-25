@@ -1,4 +1,6 @@
-name: Your New Jekyll Site
+name: MailTape
 markdown: redcarpet
 pygments: true
-permalink: pretty
+permalink: /:categories/:title/
+timezone: Europe/Paris
+safe: false

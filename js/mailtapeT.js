@@ -45,7 +45,7 @@ $(document).ready(
 		$(".archivesButton").click(function() {
 			if (archivesLoaded==false) {
 				archivesLoaded=true;
-				$( "#archives" ).load( "Archives.html", function() {
+				$( "#archives" ).load( "/Archives.html", function() {
 					$(".stretchMe").anystretch();
 					$("html, body").animate({
 					scrollTop: $('#archives').offset().top

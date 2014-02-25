@@ -1,20 +1,20 @@
 ---
 layout: episode
 title: "Valentin Stip"
-subtitle: SUN MORNING, 23 FEB 2014 - EPISODE 129
-date: 2014-02-23 09:30:00
+date: 2014-02-26 11:14:00
 author: "ImaCrea"
-published: true
+category: 129
+
+episode_number: 129
+episode_URL: http://mailta.pe/129-Valentin-Stip.html
+episode_FB_Pic: http://mailta.pe/img/fbPics/129.jpg
+musicolor: /img/musicolors/129.png
 
 guest_name: Valentin Stip
 guest_pic: /img/guestPics/129_Valentin_Stip.jpg
 guest_color: dreamy
 bigTitle_font_ratio: 6
 bigTitle_line_ratio: 1
-
-episode_number: 129
-episode_URL: http://mailta.pe/129-Valentin-Stip.html
-episode_FB_Pic: http://mailta.pe/img/fbPics/129.jpg
 
 description: "This morning, welcome on Dream Airlines. Our captain, Valentin Stip, will take us off to glowing masses of condensed sound vapor floating in the sky. Classical music and vibrant sunrays blend together over the sea of clouds, close your eyes and let the wave bring you till the edge of the atmosphere. We’ll get back on earth progressively to finally land in the middle of the Amazon rainforest where a tribe of brazilian shamans tripping on glue are waiting for us."
 
