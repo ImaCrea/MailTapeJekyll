@@ -6,7 +6,6 @@ New implementation of MailTape with Jekyll. For a more consistent user experienc
 Work in progress !
 
 TODO:
-- Auto-generate archive list
 - Use ruby assets gem to accelerate loading
 - Build new index landing page
 - Build administration GUI to create new episode
