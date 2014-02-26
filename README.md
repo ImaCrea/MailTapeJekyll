@@ -6,7 +6,7 @@ New implementation of MailTape with Jekyll. For a more consistent user experienc
 Work in progress !
 
 TODO:
-- Use ruby assets gem to accelerate loading
+- Concatenate assets in one app.js for faster fast fast !
 - Build new index landing page
 - Build administration GUI to create new episode
 - Deploy
