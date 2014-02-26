@@ -8,7 +8,6 @@
 *
 * Date: Thu May 05 14:23:00 2011 -0600
 */
-
 (function( $ ){
 
   $.fn.fitTextV = function( kompressor, options ) {

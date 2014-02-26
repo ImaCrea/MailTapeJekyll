@@ -15,7 +15,9 @@
     <meta http-equiv="Content-type" content="text/html;charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Bootstrap -->
-    <link href="/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    {% stylesheet bootstrap %}
+    <!-- <link href="/assets/stylesheets/bootstrap.min.css" rel="stylesheet" media="screen"> -->
+
     <script type="text/javascript" src="//use.typekit.net/raj7qig.js"></script>
     <script type="text/javascript">
     try {
@@ -29,22 +31,33 @@
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
-      <script src="../../assets/js/html5shiv.js"></script>
-      <script src="../../assets/js/respond.min.js"></script>
+      <script src="../../assets/assets/javascripts/html5shiv.js"></script>
+      <script type="text/javascript"></script>t src="../../assets/assets/javascripts/respond.min.js"></script>
       <![endif]-->
-    <link href="/css/mailtape.css" rel="stylesheet" media="screen">
+
+<!--     <link href="/assets/stylesheets/mailtape.css" rel="stylesheet" media="screen">
+ -->
+    {% stylesheet mailtape %}
 
     <!-- Page player core CSS -->
-    <link rel="stylesheet" type="text/css" href="/css/page-player.css" />
+<!--     <link rel="stylesheet" type="text/css" href="/assets/stylesheets/page-player.css" />
+ -->
+    {% stylesheet page-player %}
+
 
     <!-- soundManager.useFlashBlock: related CSS -->
-    <link rel="stylesheet" type="text/css" href="/css/flashblock.css" />
+<!--     <link rel="stylesheet" type="text/css" href="/assets/stylesheets/flashblock.css" /> -->
+    {% stylesheet flashblock %}
+
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script> -->
+    {% javascript vendor/jquery-2.1.0.min %}
 
     <!-- soundManager API -->
-    <script src="/js/soundmanager2-jsmin.js"></script>
+<!--      <script src="/assets/javascripts/soundmanager2-jsmin.js"></script> -->
+
+    {% javascript soundmanager2-jsmin %}
 
     <script>
     soundManager.setup({
@@ -71,15 +84,24 @@
     </script>
 
     <!-- dynamically-resized background image to any page or block level element. -->
-    <script type="text/javascript" src="/js/jquery.anystretch.min.js"></script>
+<!--     // <script type="text/javascript" src="/assets/javascripts/jquery.anystretch.min.js"></script> -->
+    
+    {% javascript jquery.anystretch.min %}
+
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="/js/bootstrap.min.js"></script>
-    <script src="/js/jquery.fittext.js"></script>
-    <script src="/js/jquery.fittext.v.js"></script>
-    <script src="/js/flowtype.js"></script>
+<!--    <script src="/assets/javascripts/bootstrap.min.js"></script> -->
+    {% javascript bootstrap.min %}
+<!--    <script src="/assets/javascripts/jquery.fittext.js"></script> -->
+    {% javascript jquery.fittext %}
+<!--    <script src="/assets/javascripts/jquery.fittext.v.js"></script> -->
+    {% javascript jquery.fittext.v %}
+<!--    <script src="/assets/javascripts/flowtype.js"></script> -->
+    {% javascript flowtype %}
     <!-- Pour écrire Musicolor en couleur -->
-    <script src="/js/jquery.lettering-0.6.1.min.js"></script>
-    <script src="/js/mailtapeT.js"></script>
+<!--    <script src="/assets/javascripts/jquery.lettering-0.6.1.min.js"></script> -->
+    {% javascript jquery.lettering-0.6.1.min %}
+<!--    <script src="/assets/javascripts/mailtapeT.js"></script> -->
+    {% javascript mailtapeT %}
 
 
     <script type="text/javascript">
@@ -99,7 +121,8 @@
     </script>
 
     <!-- Page player main script -->
-    <script src="/js/page-player.js"></script>
+<!--     // <script src="/assets/javascripts/page-player.js"></script> -->
+    {% javascript page-player %}
 
     <!-- déclaration des url des tracks de la playlist -->
     <script>

@@ -15,6 +15,8 @@
 /*jslint white: false, onevar: true, undef: true, nomen: false, eqeqeq: true, plusplus: false, bitwise: true, newcap: true, immed: true */
 /*global soundManager, window, document, navigator, setTimeout, attachEvent, Metadata, PP_CONFIG */
 
+
+
 var pagePlayer = null;
 
 function PagePlayer() {
